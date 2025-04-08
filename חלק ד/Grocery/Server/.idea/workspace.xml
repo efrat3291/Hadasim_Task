@@ -30,6 +30,14 @@
       <change beforePath="$PROJECT_DIR$/../../../../BestBasket/Repository/Repository.csproj" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../BestBasket/Service/Class1.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../BestBasket/Service/Service.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../חלק א/סעיף ב/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../חלק א/סעיף ב/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../חלק א/סעיף ב/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../חלק א/סעיף ב/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../חלק א/סעיף ב/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../חלק א/סעיף ב/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../חלק א/סעיף ב/time_series2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../חלק ג/תשובות.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../חלק ג/תשובות.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../מוטי/base (10).apk" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../מוטי/base (11).apk" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../מוטי/base (2).apk" beforeDir="false" />
@@ -171,7 +179,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="ProjectId" id="2vBZeisOWD973u3KTcZDMyoCxQp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />

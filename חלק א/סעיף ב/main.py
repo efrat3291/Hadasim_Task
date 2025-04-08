@@ -34,7 +34,7 @@ def checks(file):
 
 
 def calculate_avg(file):
-    file = check(file)
+    file = checks(file)
     file['hour_date'] = file['timestamp'].dt.strftime('%Y-%m-%d %H')
     avg = file.groupby('hour_date')['value'].mean()
     return avg
@@ -76,41 +76,6 @@ def split_csv(file):
 
 split_csv('time_series.csv')
 
-
-def split_and_calculate_avg(file):
-    file = check(file)
-    if not pd.api.types.is_datetime64_any_dtype(file['timestamp']):
-        file['timestamp'] = pd.to_datetime(file['timestamp'], format="%d/%m/%Y %H:%M", errors='coerce')
-
-    grouped = file.groupby(file['timestamp'].dt.date)
-
-    all_data = []  # לאיחוד כל הנתונים
-    all_hourly_avgs = []  # לאיחוד כל הממוצעים השעתיים
-
-    for date, group in grouped:
-        file_name = f"data_{date}.csv"
-        group.to_csv(file_name, index=False)  # שמירת קובץ יומי
-        all_data.append(group)  # שמירה לאיחוד אחר כך
-
-        # חישוב ממוצע לפי שעה
-        group['hour_date'] = group['timestamp'].dt.strftime('%Y-%m-%d %H')
-        hourly_avg = group.groupby('hour_date')['value'].mean().reset_index()
-        hourly_avg.columns = ['hour_date', 'avg']
-        hourly_avg['date'] = date
-
-        all_hourly_avgs.append(hourly_avg)
-
-    # שמירת הממוצעים המאוחדים
-    final_avg_df = pd.concat(all_hourly_avgs, ignore_index=True)
-    final_avg_df.to_csv("final_hourly_avgs.csv", index=False)
-
-    # שמירת כל המידע המקורי (אם רוצים)
-    full_data = pd.concat(all_data, ignore_index=True)
-    full_data.to_csv("full_data.csv", index=False)
-
-    print("סיום: נשמרו קובצי יום, קובץ ממוצעים, וקובץ מלא.")
-
-
 # סעיף ב/ב/3
 """
 אם הנתונים מגיעים בזרימה בזמן אמת, ולא מקובץ, 
@@ -120,7 +85,7 @@ def split_and_calculate_avg(file):
 ונשלוף את הנתונים הרצויים.
 לא נזדקק לעידכון של כל הנתונים עבור שעה מסוימת.
 אם הנתונים מגיעים לפי סדר הזמן, נוכל בכל שעה למחוק את נתוני השעה הקודמת,
-שאין לנו צורך בהם
+שאין לנו צורך בהם, ובכך נחסוך גם מקום
 """
 
 # סעיף ב/ב/4

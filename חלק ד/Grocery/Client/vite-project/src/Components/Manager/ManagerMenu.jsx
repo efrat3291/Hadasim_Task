@@ -1,61 +1,61 @@
-import { useState, useEffect } from "react"; // ייבוא useEffect לשליפת נתונים
+import { useState, useEffect } from "react"; 
 import { TextField, Box, Button, Typography, CircularProgress, Snackbar, Alert, Select, MenuItem, InputLabel, FormControl } from "@mui/material";
 import NavBar from "../NavBar";
 import OrdersList from "./OrdersList";
 import SupplierList from "./SupplierList";
-import axios from "axios"; // ייבוא axios לשליחת בקשות
+import axios from "axios"; 
 
-const API_URL_ORDERS = "http://127.0.0.1:8000/orders/"; // הכתובת של ה-API לשליפת הזמנות
-const API_URL_GOODS = "http://127.0.0.1:8000/goods/"; // הכתובת של ה-API לשליפת סחורות
+const API_URL_ORDERS = "http://127.0.0.1:8000/orders/"; 
+const API_URL_GOODS = "http://127.0.0.1:8000/goods/"; 
 
 export default function ManagerMenu() {
   const [view, setView] = useState("main");
-  const [orders, setOrders] = useState([]); // אחסון ההזמנות
-  const [goods, setGoods] = useState([]); // אחסון הסחורות
-  const [loading, setLoading] = useState(false); // מצב טעינה
-  const [error, setError] = useState(null); // מצב שגיאה
-  const [selectedGood, setSelectedGood] = useState(null); // סחורה נבחרת
-  const [quantity, setQuantity] = useState(1); // כמות להזמנה
+  const [orders, setOrders] = useState([]); 
+  const [goods, setGoods] = useState([]);
+  const [loading, setLoading] = useState(false); 
+  const [error, setError] = useState(null); 
+  const [selectedGood, setSelectedGood] = useState(null); 
+  const [quantity, setQuantity] = useState(1); 
 
   // פונקציה לשליפת הזמנות מהשרת
   const fetchOrders = async () => {
-    setLoading(true); // הפעלת מצב טעינה
+    setLoading(true); 
     try {
-      const response = await axios.get(API_URL_ORDERS); // שליחת בקשה ל-API
-      setOrders(response.data); // עדכון ההזמנות שהתקבלו מה-API
+      const response = await axios.get(API_URL_ORDERS); 
+      setOrders(response.data); 
     } catch (err) {
-      setError("שגיאה בטעינת ההזמנות"); // הצגת שגיאה במידה ויש בעיה
+      setError("שגיאה בטעינת ההזמנות"); 
     } finally {
-      setLoading(false); // סיום טעינה
+      setLoading(false); 
     }
   };
 
   // פונקציה לשליפת סחורות מהשרת
   const fetchGoods = async () => {
-    setLoading(true); // הפעלת מצב טעינה
+    setLoading(true); 
     try {
-      const response = await axios.get(API_URL_GOODS); // שליחת בקשה ל-API
-      setGoods(response.data); // עדכון הסחורות שהתקבלו מה-API
+      const response = await axios.get(API_URL_GOODS); 
+      setGoods(response.data); 
     } catch (err) {
-      setError("שגיאה בטעינת הסחורות"); // הצגת שגיאה במידה ויש בעיה
+      setError("שגיאה בטעינת הסחורות"); 
     } finally {
-      setLoading(false); // סיום טעינה
+      setLoading(false); 
     }
   };
 
-  // פונקציה שתופעל כשנלחץ על כפתור "צפייה בהזמנות"
+  
   const handleViewOrders = () => {
-    setView("OrdersList"); // שינוי ה-view להצגת הזמנות
-    fetchOrders(); // קריאה לפונקציה לשליפת ההזמנות מה-API
+    setView("OrdersList"); 
+    fetchOrders(); 
   };
 
-  // פונקציה שתופעל כשנלחץ על כפתור "הזמנת סחורה"
+
   const handleViewGoods = () => {
     setView("SupplierList");
-    fetchGoods(); // קריאה לפונקציה לשליפת הסחורות מה-API
+    fetchGoods(); 
   };
 
-  // פונקציה להזמין סחורה
+
   const handleOrderGood = async () => {
     if (!selectedGood || quantity <= 0) {
       alert("אנא בחר סחורה וכמות");
@@ -64,7 +64,7 @@ export default function ManagerMenu() {
 
     try {
       const orderData = {
-        supplier_id: selectedGood.supplier_id, // נשלף מהאובייקט
+        supplier_id: selectedGood.supplier_id, 
         goods_in_order: [
           {
             goods_id: selectedGood.id,

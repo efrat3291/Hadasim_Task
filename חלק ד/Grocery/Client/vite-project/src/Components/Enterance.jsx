@@ -7,18 +7,17 @@ const Enterance = () => {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
 
-  // פונקציה לבדוק אם הסיסמה נכונה
+  // פונקציה לבדיקת נכונות סיסמה
   const handleAdminLogin = () => {
-    const correctPassword = '1234'; // כאן תכניס את הסיסמה הנכונה של המנהל
+    const correctPassword = '1234'; 
     if (password === correctPassword) {
-      navigate('/manager-dashboard'); // הפניית המנהל למסך הדשבורד
-    } else {
+      navigate('/manager-dashboard'); 
       setError('סיסמה לא נכונה');
     }
   };
 
   const handleSupplierLogin = () => {
-    navigate('/login'); // הפניית ספק למסך התחברות
+    navigate('/login'); 
   };
 
   return (

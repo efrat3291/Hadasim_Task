@@ -1,6 +1,6 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
-const API_URL = "https://localhost:7227/api/GoodsToOrder";
+const API_URL = "http://127.0.0.1:8000/GoodsInOrder";
 export const createGoodInOrder = createAsyncThunk(
   "goods/creategoods",
   async (goodInOrder, { rejectWithValue }) => {

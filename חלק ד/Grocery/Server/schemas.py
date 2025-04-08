@@ -13,12 +13,14 @@ class Goods_in_orderCreate(BaseModel):
     class Config:
         orm_mode = True
 
+
 class GoodsInOrderResponse(BaseModel):
     goods_id: UUID
     amount: int
 
     class Config:
         orm_mode = True
+
 
 class GoodsCreate(BaseModel):
     name: str
@@ -34,7 +36,6 @@ class OrderCreate(BaseModel):
     supplier_id: UUID
     goods_in_order: List[Goods_in_orderCreate]
     status: Order_status
-
 
     class Config:
         orm_mode = True
@@ -78,12 +79,14 @@ class SupplierResponse(BaseModel):
     class Config:
         orm_mode = True
 
+
 class SupplierCreate(BaseModel):
     telephone: str
     representative: str
 
     class Config:
         orm_mode = True
+
 
 class SupplierSignup(BaseModel):
     company_name: str
@@ -95,8 +98,7 @@ class SupplierSignup(BaseModel):
     class Config:
         from_attributes = True
 
+
 class SupplierLogin(BaseModel):
     telephone: str
     password: str
-
-

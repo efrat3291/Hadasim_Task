@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const API_URL = "https://localhost:7227/api/User";
+const API_URL = "http://127.0.0.1:8000/supplier";
 
 // יצירת משתמש חדש
 export const createUser = createAsyncThunk(
@@ -21,7 +21,7 @@ export const fetchUsers = createAsyncThunk(
   "users/fetchUsers",
   async (_, { rejectWithValue }) => {
     try {
-      const response = await axios.get(API_URL);  // ללא טוקן
+      const response = await axios.get(API_URL);  
       return response.data;
     } catch (error) {
       return rejectWithValue(error.response?.data || error.message);
@@ -33,10 +33,10 @@ const initialState = {
   users: [],
   currentUser: null,
   status: "",
-  error: null,  // הוספת error לשם שמירה על הודעות שגיאה
+  error: null,  
 };
 
-// הוספת setUser עדכון state של currentUser
+
 export const userSlice = createSlice({
   name: "users",
   initialState,
@@ -46,7 +46,7 @@ export const userSlice = createSlice({
       state.currentUser = action.payload.user;
     },
     clearUserError: (state) => {
-      state.error = null;  // ניקוי שגיאות
+      state.error = null;  
     },
   },
   extraReducers: (builder) => {

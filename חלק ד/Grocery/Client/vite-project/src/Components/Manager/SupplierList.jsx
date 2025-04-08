@@ -18,14 +18,14 @@ export default function SupplierList() {
   const status = useSelector((state) => state.users.status);
   const [selectedSupplierIndex, setSelectedSupplierIndex] = useState(null);
 
-  // קריאה ל-fetchUsers אם לא קיימים נתונים
+  
   useEffect(() => {
     if (allSuppliers.length === 0) {
       dispatch(fetchUsers());
     }
   }, [dispatch, allSuppliers.length]);
 
-  // סינון הספקים לפי תפקיד
+ 
   const suppliers = allSuppliers.filter((x) => x.role !== "manager");
 
   const handleShowGoods = (index) => {

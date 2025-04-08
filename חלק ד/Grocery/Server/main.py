@@ -2,7 +2,6 @@ from fastapi import FastAPI, Depends, HTTPException
 from pydantic import BaseModel
 from typing import List, Optional
 from uuid import UUID, uuid4
-
 from sqlalchemy.orm import joinedload
 from sqlmodel import Field, Session, SQLModel, create_engine, select
 from sqlalchemy import Column, Integer, String, ForeignKey, create_engine
@@ -50,15 +49,13 @@ def get_goods(db: Session = Depends(get_db)):
     return goods
 
 
-
-
 @app.get("/orders/", response_model=List[schemas.OrderResponse])
 def get_orders(db: Session = Depends(get_db)):
     try:
         # שליפת ההזמנות תוך התחשבות בקשר עם טבלת סחורה בהזמנה והסחורות עצמם
         orders = db.query(models.Orders).options(
             joinedload(models.Orders.goods_in_order)
-            .joinedload(models.Goods_in_order.goods)  # טוען את הסחורות עצמן
+                .joinedload(models.Goods_in_order.goods)  # טעינת הסחורות
         ).all()
 
         # המרה להחזרת התוצאה בפורמט הנכון
@@ -66,15 +63,15 @@ def get_orders(db: Session = Depends(get_db)):
             schemas.OrderResponse(
                 id=order.id,
                 status=order.status,
-                supplier_id=order.supplier_id if order.supplier else None,  # אם יש ספק
+                supplier_id=order.supplier_id if order.supplier else None,
                 goods_in_order=[
                     schemas.GoodsInOrderResponse(
                         goods_id=goods.goods_id,
                         amount=goods.amount,
                         name=goods.goods.name,
                         # הוספת פרטי הסחורה עבור כל פריט
-                        goods_name=goods.goods.name,  # שם הסחורה
-                        goods_price=goods.goods.price  # מחיר הסחורה
+                        goods_name=goods.goods.name,
+                        goods_price=goods.goods.price
                     ) for goods in order.goods_in_order
                 ]
             )
@@ -82,6 +79,7 @@ def get_orders(db: Session = Depends(get_db)):
         ]
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Internal Server Error: {str(e)}")
+
 
 @app.get("/by-supplier/{supplier_id}")
 def get_orders_by_supplier(supplier_id: UUID, db: Session = Depends(get_db)):
@@ -100,7 +98,7 @@ def get_orders_by_supplier(supplier_id: UUID, db: Session = Depends(get_db)):
 
 @app.post("/goods/", response_model=schemas.GoodsResponse)
 def create_goods(goods: schemas.GoodsCreate, db: Session = Depends(get_db)):
-    # בדוק אם הספק קיים
+    # בדיקה האם הספק קיים
     if goods.supplier_id:
         supplier = db.query(models.Supplier).filter(models.Supplier.id == goods.supplier_id).first()
         if not supplier:
@@ -148,7 +146,6 @@ def create_orders(orders: schemas.OrderCreate, db: Session = Depends(get_db)):
 
 @app.post("/suppliers/signup", response_model=schemas.SupplierResponse)
 def signup_supplier(supplier: schemas.SupplierSignup, db: Session = Depends(get_db)):
-
     print("Parsed supplier model:", supplier)
     # אם ספק עם אותו שם חברה כבר קיים, נחזיר שגיאה
     existing_supplier = db.query(models.Supplier).filter(models.Supplier.company_name == supplier.company_name).first()
@@ -174,7 +171,7 @@ def signup_supplier(supplier: schemas.SupplierSignup, db: Session = Depends(get_
                 name=good.name,
                 price=good.price,
                 min_amount=good.min_amount,
-                supplier_id=db_supplier.id  # המערכת תיצור קשר בין הסחורה לספק
+                supplier_id=db_supplier.id  #קשר לספק
             )
             db.add(db_goods)
 
@@ -204,7 +201,6 @@ def login_supplier(supplier: schemas.SupplierLogin, db: Session = Depends(get_db
     if not bcrypt.checkpw(supplier.password.encode('utf-8'), supplier_in_db.password.encode('utf-8')):
         raise HTTPException(status_code=400, detail="Incorrect password")
 
-    # אם הסיסמה נכונה, החזר את פרטי הספק
     return supplier_in_db
 
 
@@ -236,7 +232,7 @@ def confirm_order_received(order_id: UUID, db: Session = Depends(get_db)):
     return order
 
 
-# שאילתה לשליפת הזמנות עם פריטים
+# פונקציה לשליפת הזמנות עם פריטים
 @app.get("/orders-with-goods")
 def get_orders_with_goods(db: Session = Depends(get_db)):
     orders = db.query(models.Order).all()  # שליפת כל ההזמנות

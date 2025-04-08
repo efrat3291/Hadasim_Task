@@ -4,14 +4,13 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const API_URL = "http://127.0.0.1:8000/orders/";
 
-// פונקציה אסינכרונית ליצירת הזמנה חדשה באמצעות createAsyncThunk
 export const createOrder = createAsyncThunk(
   "orders/createOrder", // שם הפעולה
   async (orderData, { rejectWithValue }) => {
     try {
       // שליחת בקשת POST ל-API עם נתוני ההזמנה
       const response = await axios.post(API_URL, orderData);
-      console.log("Response received:", response.data); // הדפסת התגובה שהתקבלה
+      
       // החזרת האובייקט שנוצר כפי שהתקבל מה-API
       return response.data;
     } catch (error) {

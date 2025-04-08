@@ -38,7 +38,6 @@ export default function GoodsTable({ supplier, onBack }) {
         Goods: good,
       }));
 
-    //setOrderDetails(updatedOrderDetails);
   };
 
   const handleGroupOrder = async () => {
@@ -54,7 +53,6 @@ export default function GoodsTable({ supplier, onBack }) {
     orderedGoods.map((good) => {
       dis(
         createGoodToOrder({
-          //goods: good,
           name: good.nameProduct,
           quantity: good.orderQuantity,
           goodsId: good.id,

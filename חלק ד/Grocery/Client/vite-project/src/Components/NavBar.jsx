@@ -12,14 +12,12 @@ const NavBar = ({ name }) => {
           alignItems: "center",
         }}
       >
-        {/* צד שמאל - הסמנים */}
+
         <Box sx={{ display: "flex", gap: 2 }}>
           <Typography variant="h6">מערכת לניהול מכולת</Typography>
         </Box>
 
-      
 
-        {/* צד ימין - שלום */}
         <Typography variant="h6" sx={{ flexShrink: 0 }}>
           שלום ל {name}
         </Typography>

@@ -1,15 +1,36 @@
+
 .custom-navbar {
-    background-color: #1976d2; /* צבע רקע מותאם */
-  }
-  
-  .custom-navbar .MuiIconButton-root {
-    margin-right: 10px;
-  }
-  
-  .custom-navbar .MuiTypography-subtitle1 {
-    font-weight: bold;
-  }
-  body {
-    margin-top: 64px;
-  }
-  
+  background-color: #1976d2; 
+  padding: 10px 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.custom-navbar .MuiIconButton-root {
+  margin-right: 16px; 
+  color: white; 
+  transition: all 0.3s ease; 
+}
+
+.custom-navbar .MuiIconButton-root:hover {
+  background-color: rgba(255, 255, 255, 0.1); 
+  transform: scale(1.1); 
+}
+
+
+.custom-navbar .MuiTypography-subtitle1 {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white; 
+  text-transform: uppercase; 
+}
+
+body {
+  margin-top: 64px; 
+  font-family: 'Roboto', sans-serif; 
+  background-color: #f5f5f5;
+  color: #333; 
+}

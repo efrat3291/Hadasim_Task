@@ -1,30 +1,29 @@
 import { useState } from "react";
 import { Button, TextField, Box, Typography } from "@mui/material";
 import axios from "axios";
-import { useNavigate } from "react-router-dom"; // הייבוא של useNavigate
+import { useNavigate } from "react-router-dom";
 
-const API_URL = "http://127.0.0.1:8000/suppliers/login"; // כתובת ה-API שלך
+const API_URL = "http://127.0.0.1:8000/suppliers/login"; 
 
 export default function SupplierLogin() {
-  const navigate = useNavigate(); // יצירת ה-hook לשימוש בניווט
-  const [telephone, setTelephone] = useState(""); // מספר הטלפון
-  const [password, setPassword] = useState(""); // הסיסמה
-  const [error, setError] = useState(""); // שגיאות
-  const [loading, setLoading] = useState(false); // מצב טוען
-  const [supplier, setSupplier] = useState(null); // פרטי הספק אחרי ההתחברות
+  const navigate = useNavigate(); 
+  const [telephone, setTelephone] = useState(""); 
+  const [password, setPassword] = useState(""); 
+  const [error, setError] = useState(""); 
+  const [loading, setLoading] = useState(false); 
+  const [supplier, setSupplier] = useState(null); 
 
   const handleLogin = async () => {
     setLoading(true);
-    setError(""); // מאפס את השגיאה לפני כל נסיון התחברות חדש
+    setError(""); 
     try {
       const response = await axios.post(API_URL, { telephone, password });
-      setSupplier(response.data); // שומר את פרטי הספק אם ההתחברות הצליחה
+      setSupplier(response.data); 
       console.log(response.data);
 
-      // ניווט ל-SupplierMenu לאחר התחברות מוצלחת
-      navigate("/supplier-menu");  // הניווט לדף SupplierMenu
+      navigate("/supplier-menu");  
     } catch (err) {
-      // אם יש שגיאה (כמו סיסמה לא נכונה או ספק לא נמצא)
+
       setError(err.response ? err.response.data.detail : "An error occurred");
     } finally {
       setLoading(false);
@@ -33,7 +32,7 @@ export default function SupplierLogin() {
 
   // ניווט לעמוד ההרשמה
   const navigateToSignup = () => {
-    navigate("/supplier-signup");  // כאן תשנה לכתובת של עמוד ההרשמה שלך
+    navigate("/supplier-signup");  
   };
 
   return (
