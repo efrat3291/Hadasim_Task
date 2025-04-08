@@ -1,0 +1,15 @@
+.custom-navbar {
+    background-color: #1976d2; /* צבע רקע מותאם */
+  }
+  
+  .custom-navbar .MuiIconButton-root {
+    margin-right: 10px;
+  }
+  
+  .custom-navbar .MuiTypography-subtitle1 {
+    font-weight: bold;
+  }
+  body {
+    margin-top: 64px;
+  }
+  

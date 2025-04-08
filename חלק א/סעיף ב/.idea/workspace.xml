@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b8e12a56-b2c8-46b7-aaf4-195284fcb9bb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../BestBasket/BestBasket.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BestBasket/BestBasket/BestBasket.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BestBasket/BestBasket/BestBasket.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BestBasket/BestBasket/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BestBasket/BestBasket/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BestBasket/BestBasket/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BestBasket/BestBasket/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BestBasket/BestBasket/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BestBasket/BestBasket/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BestBasket/Common/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BestBasket/Common/Common.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BestBasket/Mock/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BestBasket/Mock/DataBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BestBasket/Mock/Mock.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BestBasket/Repository/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BestBasket/Repository/Interfaces/IContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BestBasket/Repository/Repository.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BestBasket/Service/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../BestBasket/Service/Service.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/base (10).apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/base (11).apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/base (2).apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/base (3).apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/base (4).apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/base (5).apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/base (6).apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/base (7).apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/base (8).apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/base (9).apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/base(11).apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/base.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/!!!מסך הבית.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/APK_Editor-1.8.10.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/Anti.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/App Manager Apk Installer_v1.0.22_apkpure.com.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/App Uninstaller.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/AppLock_2.15.3.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/BassBooster.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/Battery Notifier BT Free.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/Bluetooth File Transfer_it.medieval.blueftp.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/BluetoothShortcut.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/Button Mapper.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/Calculator Vault App Hider Hide Apps_v1.4.0_apkpure.com.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/Chat.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/ColorNote_3.9.20.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/Droid Hardware Info_v1.2.2_.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/English Dictionary - Offline-3.6.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/English Dictionary - Offline.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/English Grammar Spell Check Auto Correct_v4.13_apkpure.com.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/English Spell Check_v1.5_apkpure.com.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/English to Hebrew Translator_v1.7_apkpure.com.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/English to Hebrew offline Dictionary_v3.0_apkpure.com.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/File Commander.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/FileUnzipper.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/GO_TaskManager_EX-3.91.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/Hebrew English Offline Dictionary Translator_v1.9.4_apkpure.com.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/Hebrew English Translator_v3.0.2_apkpure.com.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/Kika Keyboard Emoji Keyboard Emoticon GIF_v5.5.8.3234_apkpure.com.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/Link2SD.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/ManageApps App Manager_v4.0_apkpure.com.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/Mock Locations fake GPS path_v1.69_apkpure.com.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/OfficeSuite.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/OfficeSuite_com.mobisystems.office.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/Old keyboard_v1.10.00_apkpure.com.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/PDF.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/Panas.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/Photoshop Express_com.adobe.psmobile.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/Pixlr.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/Pulsar_com.rhmsoft.pulsar.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/RAR_signed.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/Recover Deleted Files Restore Data From SD card_v69.4_apkpure.com.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/Rotate.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/Show Touches_v2.0_apkpure.com.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/T9 Launcher Home replacement not a keyboard_v1.87_apkpure.com.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/Volume.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/Yiddish Translator.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/app-manager-5-29.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/appsforflip_launcher.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/ch.smalltech.battery.free-1.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/com.bb.keyboard.wf.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/com.gn.aboutmyphone-1.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/com.israel.dictionary.hebrew_240.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/com.kingroot.kinguser.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/com.speedsoftware.rootexplorer-1.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/com.vagminesoft.sdcardrecover-1.4-free-www.apksum.com.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/com.wondershare.mobilego.connector.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/drivetest.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/gpslock.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/grant.bt.contact.transfer.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/kika-keyboard-8-5-6.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/org.contentarcadeapp.spellchecker-48.9.7-free-www.apksum.com.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/paint-free_v3.5.4.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/qinpad.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/quickoffice.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/rar.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/shot.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/unitconv-aligned-signed.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/אוטובוס.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/אולר-שוויצרי.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/אנשי-קשר.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/בונה apk (1).apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/בלוטוס מאק.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/הסוללה_3.2.2.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/הסתרת יישומים.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/זבובים.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/חותך שירים.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/חיתוך ויצירת רינטגונים.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/חיתוך שירים(1).apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/חיתוך שירים.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/טיטניום גיבויים.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/לאקי פאצר סדרות.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/לוח עברי_com.lionscribe.hebdate.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/לימוד אנגלית.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/לימוד תיאוריה.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/לימוד תמרורים.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/מאיץ.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/מבלבל את העיניים.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/מגבר קליטת מיקום.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/ממיר jar ל.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/מנקה.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/מסוף פקודות כנראה.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/מסוף פקודות.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/מסך הבית.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/מסתיר אפליקציות.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/מעביר יישומים.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/מקלדת יאנג 1.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/מקלדת יאנג 2.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/מקלדת מיהושע זורגר.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/מקלדת סמסונג.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/מקלדת עברית טובה.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/מקליט שיחות.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/משנה קול.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/משנה שפה בפלאפונים.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/נגן 2021 (אנגלית).apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/נגן אמ פי 3_3.0.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/נגן מוזיקה (אנגלית).apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/נגן-פצצה-ממש-נח.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/נועל אפליקציות פרימיום.Apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/נעילת יישומים פצצה.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/נעילת יישומים.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/סייר רוט.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/סייר תואם רוט.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/סייר-קבצים-es-pro.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/עברי-על-הבר-il.co.yshahk.hebdatestatusbar-39-v2.55-1.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/עורך מוזיקה פצצה.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/עורך מוזיקה.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/עורך תמונות.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/עריכת-מוזיקה (1).apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/פורץ בלוטוס.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/קינגרוט.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/רשמקול1.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/רשמקול2.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../מוטי/אפליקציות/שליחת אפליקציות.apk" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2vObSH480DJjp99NggFdb6rBh44" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="סעיף ב" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\אפרת\AppData\Local\Programs\Python\Python310\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="סעיף ב" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b8e12a56-b2c8-46b7-aaf4-195284fcb9bb" name="Default Changelist" comment="" />
+      <created>1744019065227</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744019065227</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="0" width="1089" height="816" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1744022284587">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="0" y="0" width="1089" height="816" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1744022284587" />
+    <state x="541" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1744021915999">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="541" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.816@0.0.1536.816" timestamp="1744021915999" />
+    <state width="1515" height="207" key="GridCell.Tab.0.bottom" timestamp="1744037075854">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1515" height="207" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1744037075854" />
+    <state width="1515" height="207" key="GridCell.Tab.0.center" timestamp="1744037075854">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1515" height="207" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1744037075854" />
+    <state width="1515" height="207" key="GridCell.Tab.0.left" timestamp="1744037075854">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1515" height="207" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1744037075854" />
+    <state width="1515" height="207" key="GridCell.Tab.0.right" timestamp="1744037075854">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1515" height="207" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1744037075854" />
+    <state x="277" y="53" key="SettingsEditor" timestamp="1744019791699">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="277" y="53" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1744019791699" />
+  </component>
+</project>
